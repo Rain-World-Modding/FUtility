@@ -28,14 +28,14 @@ struct appdata_futility {
     float4 tangent   : TANGENT;
     float3 normal    : NORMAL;
     float4 color     : COLOR;
-    float4 texcoord  : TEXCOORD0;
-    float4 texcoord1 : TEXCOORD1;
-    float4 texcoord2 : TEXCOORD2;
-    float4 texcoord3 : TEXCOORD3;
-    float4 texcoord4 : TEXCOORD4;
-    float4 texcoord5 : TEXCOORD5;
-    float4 texcoord6 : TEXCOORD6;
-    float4 texcoord7 : TEXCOORD7;
+    float2 texcoord  : TEXCOORD0;
+    float2 texcoord1 : TEXCOORD1;
+    float2 texcoord2 : TEXCOORD2;
+    float2 texcoord3 : TEXCOORD3;
+    float2 texcoord4 : TEXCOORD4;
+    float2 texcoord5 : TEXCOORD5;
+    float2 texcoord6 : TEXCOORD6;
+    float2 texcoord7 : TEXCOORD7;
     UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 ```
