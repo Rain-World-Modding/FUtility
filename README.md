@@ -15,7 +15,7 @@ If you somehow live under a rock or haven't heard of the horrors of Rain World's
 ### Step 1: Reference
 Download FUtility.dll and FUtility.xml from the latest version in the [Releases tab](https://github.com/Rain-World-Modding/FUtility/releases) and put it in your references folder so you can reference it in your C# project. Then, do your graphics code work as you would normally, but with the alternatives in the `FUtility.Sprites` namespace.
 
-Also make sure to add the mod itself as a dependency to your code mod, both in your modinfo.json and in your code as a `BepInDependency` attribute attached to your Plugin class. If you don't know how to do that, 
+Also make sure to add the mod itself as a dependency to your code mod, both in your modinfo.json and in your code as a `BepInDependency` attribute attached to your Plugin class. If you don't know how to do that, just plop `[BepInDependency("futility", BepInDependency.DependencyFlags.HardDependency)]` next to your `[BepInPlugin(MOD_ID, MOD_NAME, MOD_VERSION)]` line.
 
 ### Step 2: Shader modifications
 In order to take advantage of the channels that FUtility provides, you will need to change what structs are used in your shader.
