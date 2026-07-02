@@ -68,8 +68,7 @@ namespace FUtility.Shaders
                     return FShader._shaders[i];
                 }
             }
-            var fshader = new FShader(shaderShortName, shader, FShader._nextShaderIndex++);
-            FShader._shaders.Add(fshader);
+            var fshader = new FUShader(shaderShortName, shader);
             return fshader;
         }
 
