@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37328.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUtility", "src\FUtility.csproj", "{15509E34-1595-F55A-0969-5E3903844DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15509E34-1595-F55A-0969-5E3903844DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15509E34-1595-F55A-0969-5E3903844DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15509E34-1595-F55A-0969-5E3903844DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15509E34-1595-F55A-0969-5E3903844DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7983EBF-0D33-454F-A575-F3D938B51F47}
+	EndGlobalSection
+EndGlobal
