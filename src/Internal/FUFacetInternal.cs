@@ -4,8 +4,11 @@ namespace FUtility.Internal
 {
     internal static class FUFacetInternal
     {
-        internal static void ApplyHooks()
+        private static bool _hasApplied = false;
+        internal static void Apply()
         {
+            if (_hasApplied) return;
+            _hasApplied = true;
             On.FFacetRenderLayer.UpdateMeshProperties += FFacetRenderLayer_UpdateMeshProperties;
         }
 

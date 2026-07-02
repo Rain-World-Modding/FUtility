@@ -1,4 +1,6 @@
-﻿namespace FUtility.Facets
+﻿using FUtility.Internal;
+
+namespace FUtility.Facets
 {
     /// <summary>
     /// Holds all registered facet types of FUtility
@@ -13,6 +15,7 @@
 
         static FUFacetTypes()
         {
+            FUFacetInternal.Apply();
             FUQuadType = FFacetType.CreateFacetType("FUQuad", 10, 10, 60, CreateFUQuadRenderlayer);
             FUTriangleType = FFacetType.CreateFacetType("FUTriangle", 16, 16, 64, CreateFUTriangleRenderlayer);
         }
