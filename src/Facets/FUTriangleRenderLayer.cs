@@ -68,15 +68,15 @@ namespace FUtility.Facets
             base.ShrinkMaxFacetLimit(deltaDecrease);
 
             if (deltaDecrease <= 0) return;
-            Array.Resize(ref _uvs2, _maxFacetCount);
-            Array.Resize(ref _uvs3, _maxFacetCount);
-            Array.Resize(ref _uvs4, _maxFacetCount);
-            Array.Resize(ref _uvs5, _maxFacetCount);
-            Array.Resize(ref _uvs6, _maxFacetCount);
-            Array.Resize(ref _uvs7, _maxFacetCount);
-            Array.Resize(ref _uvs8, _maxFacetCount);
-            Array.Resize(ref _normals, _maxFacetCount);
-            Array.Resize(ref _tangents, _maxFacetCount);
+            Array.Resize(ref _uvs2, _maxFacetCount * 3);
+            Array.Resize(ref _uvs3, _maxFacetCount * 3);
+            Array.Resize(ref _uvs4, _maxFacetCount * 3);
+            Array.Resize(ref _uvs5, _maxFacetCount * 3);
+            Array.Resize(ref _uvs6, _maxFacetCount * 3);
+            Array.Resize(ref _uvs7, _maxFacetCount * 3);
+            Array.Resize(ref _uvs8, _maxFacetCount * 3);
+            Array.Resize(ref _normals, _maxFacetCount * 3);
+            Array.Resize(ref _tangents, _maxFacetCount * 3);
         }
 
         /// <inheritdoc/>
@@ -85,15 +85,15 @@ namespace FUtility.Facets
             base.ExpandMaxFacetLimit(deltaIncrease);
 
             if (deltaIncrease <= 0) return;
-            Array.Resize(ref _uvs2, _maxFacetCount);
-            Array.Resize(ref _uvs3, _maxFacetCount);
-            Array.Resize(ref _uvs4, _maxFacetCount);
-            Array.Resize(ref _uvs5, _maxFacetCount);
-            Array.Resize(ref _uvs6, _maxFacetCount);
-            Array.Resize(ref _uvs7, _maxFacetCount);
-            Array.Resize(ref _uvs8, _maxFacetCount);
-            Array.Resize(ref _normals, _maxFacetCount);
-            Array.Resize(ref _tangents, _maxFacetCount);
+            Array.Resize(ref _uvs2, _maxFacetCount * 3);
+            Array.Resize(ref _uvs3, _maxFacetCount * 3);
+            Array.Resize(ref _uvs4, _maxFacetCount * 3);
+            Array.Resize(ref _uvs5, _maxFacetCount * 3);
+            Array.Resize(ref _uvs6, _maxFacetCount * 3);
+            Array.Resize(ref _uvs7, _maxFacetCount * 3);
+            Array.Resize(ref _uvs8, _maxFacetCount * 3);
+            Array.Resize(ref _normals, _maxFacetCount * 3);
+            Array.Resize(ref _tangents, _maxFacetCount * 3);
         }
     }
 }

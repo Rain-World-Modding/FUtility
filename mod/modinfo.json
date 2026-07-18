@@ -1,7 +1,7 @@
 {
   "id": "futility",
   "name": "FUtility",
-  "version": "1.0",
+  "version": "1.0.1",
   "authors": "Alduris",
   "description": "Library of utilities for Futile, the game's sprite engine. Does nothing on its own.",
   "tags": [
