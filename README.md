@@ -1,5 +1,5 @@
 # FUtility
-Futile utility library that adds a bunch of nice utilities for advanced modders looking for more out of Futile. A futile effort, if you ask me.
+Futile utility library that adds a bunch of nice utilities for advanced modders who have realized the futility of using vanilla Futile and desire more.
 
 ## What does this actually do?
 Pretty much nothing. The code only contains stuff for other mods to use if they so choose. It does nothing on its own, and is completely useless for almost all Rain World modders. The target audience is mainly those who are working with complex shaders that require more per-vertex inputs than Futile usually allows.
@@ -11,7 +11,10 @@ There are also some minor helper functions located in the `FUtility.FUtils` stat
 ## What is Futile?
 If you somehow live under a rock or haven't heard of the horrors of Rain World's code base, Futile is the very heavily code-based sprite framework which Rain World uses a modified version of. It was developed by Matt Rix and is hosted under a MIT license on GitHub ([link to Futile's source code](https://github.com/MattRix/Futile/)). Unfortunately for modders, the version of Futile that Rain World uses dates back to around 2014, and as such is missing some of the "luxuries" of Futile's modern codebase.
 
-## How do I use this?
+## I'm not a coder. How do I download this?
+If you have access to the Steam Workshop, you can install the mod from [its Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3756041520). Otherwise, you can download from the [Releases tab](https://github.com/Rain-World-Modding/FUtility/releases). Download the .zip file with `futility` in the name. **Do not download any other files!**
+
+## I'm a coder. How do I use this?
 ### Step 1: Reference
 Download FUtility.dll and FUtility.xml from the latest version in the [Releases tab](https://github.com/Rain-World-Modding/FUtility/releases) and put it in your references folder so you can reference it in your C# project. Then, do your graphics code work as you would normally, but with the alternatives in the `FUtility.Sprites` namespace.
 
@@ -58,4 +61,4 @@ It should be fairly obvious what properties map to what, but in case you need so
 In total, this is 27 total floats of data that you can utilize in your shader, excluding the vertex position, which you probably shouldn't alter anyway.
 
 ### Step 3: Suffer
-Have fun with your new control.
+Have fun with your new control. If you release your mod on Steam, make sure to [add the mod as a dependency](https://steamcommunity.com/sharedfiles/filedetails/?id=3756041520)!
