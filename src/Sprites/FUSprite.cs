@@ -239,6 +239,7 @@ namespace FUtility.Sprites
                 Vector2[] uvs8 = _fuRenderLayer.uvs8;
                 Vector3[] normals = _fuRenderLayer.normals;
                 Vector4[] tangents = _fuRenderLayer.tangents;
+                Color[] colors = _renderLayer.colors;
 
                 int firstIndex = _firstFacetIndex * 4;
                 for (int i = 0; i < 4; i++)
@@ -252,6 +253,7 @@ namespace FUtility.Sprites
                     uvs8[firstIndex + i] = _uvs8[i];
                     normals[firstIndex + i] = _normals[i];
                     tangents[firstIndex + i] = _tangents[i];
+                    colors[firstIndex + i] = _colors[i];
                 }
                 _renderLayer.HandleVertsChange();
             }
